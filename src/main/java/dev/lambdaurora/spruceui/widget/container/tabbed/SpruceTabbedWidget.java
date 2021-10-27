@@ -23,7 +23,7 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.OrderedText;
 import net.minecraft.text.Text;
 import org.jetbrains.annotations.Nullable;
-
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -345,7 +345,7 @@ public class SpruceTabbedWidget extends AbstractSpruceParentWidget<SpruceWidget>
         }
     }
 
-    public static class SideTabList extends SpruceEntryListWidget<Entry> {
+    public static class SideTabList extends SpruceEntryListWidget<dev.lambdaurora.spruceui.widget.container.tabbed.SpruceTabbedWidget.Entry> {
         private TabEntry currentTab = null;
 
         protected SideTabList(Position position, int width, int height) {

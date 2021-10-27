@@ -14,6 +14,7 @@ import dev.lambdaurora.spruceui.navigation.NavigationDirection;
 import dev.lambdaurora.spruceui.navigation.NavigationUtils;
 import dev.lambdaurora.spruceui.widget.AbstractSpruceWidget;
 import dev.lambdaurora.spruceui.widget.SpruceWidget;
+import java.util.Iterator;
 import org.jetbrains.annotations.Nullable;
 import org.lwjgl.glfw.GLFW;
 

@@ -1,9 +1,9 @@
 plugins {
-    id 'fabric-loom' version '0.9.45'
-    id 'io.github.juuxel.loom-quiltflower' version '1.1.3'
+    id 'fabric-loom' version '0.10.27'
+    id 'io.github.juuxel.loom-quiltflower' version '1.3.0'
     id 'java-library'
     id 'maven-publish'
-    id 'org.cadixdev.licenser' version '0.6.1'
+//    id 'org.cadixdev.licenser' version '0.6.1'
 }
 
 group = project.maven_group
@@ -112,10 +112,11 @@ runClient {
     classpath(sourceSets.testmod.runtimeClasspath)
 }
 
-license {
-    header file('HEADER')
-    include '**/*.java'
-}
+// Errors out at present. Not sure why. More investigation needed.
+// license {
+//    header file('HEADER')
+//    include '**/*.java'
+// }
 
 // configure the maven publication
 publishing {

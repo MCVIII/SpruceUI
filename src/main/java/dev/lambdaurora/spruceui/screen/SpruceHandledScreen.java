@@ -24,7 +24,8 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
-
+import java.util.List;
+import java.util.ListIterator;
 import java.util.function.BooleanSupplier;
 import java.util.function.Supplier;
 

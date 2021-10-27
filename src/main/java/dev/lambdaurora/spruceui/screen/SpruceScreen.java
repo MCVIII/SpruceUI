@@ -21,7 +21,8 @@ import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
-
+import java.util.List;
+import java.util.ListIterator;
 import java.util.function.BooleanSupplier;
 import java.util.function.Supplier;
 
